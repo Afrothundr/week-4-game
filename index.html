@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dragon Ball Z Action RPG</title>
+	<link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="assets/javascript/jquery-3.2.1.min.js"></script>
+	<script src="assets/javascript/game.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class ="jumbotron">
+			<h1>Dragon Ball Z RPG</h1>
+		</div>
+		<div class="row">
+			<div class="col-sm-12" id="char-bank">
+				<div class="character" id="goku">
+					<h3>Goku</h3>
+					<img src="assets/images/goku.jpg" class="char-img" id="goku-img">
+					<p>Health:<span id="Goku-HP"></span></p>
+				</div>
+				<div class="character" id="vegeta">
+					<h3>Vegeta</h3>
+					<img src="assets/images/vegeta.png" class="char-img" id="vegeta-img">
+					<p>Health:<span id="Vegeta-HP"></span></p>
+				</div>
+				<div class="character" id="frieza">
+					<h3>Frieza</h3>
+					<img src="assets/images/frieza1.png" class="char-img" id="frieza-img">
+					<p>Health:<span id="Frieza-HP"></span></p>
+				</div>
+				<div class="character" id="piccolo">
+					<h3>Piccolo</h3>
+					<img src="assets/images/piccolo.jpg" class="char-img" id="piccolo-img">
+					<p>Health:<span id="Piccolo-HP"></span></p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h2>Your Character</h2>
+			</div>
+			<div class="col-sm-12">
+				<span id="chosen-char"></span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<h2>Enemies Available to Attack</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<span id="enemies-avail"></span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<h2>Fight Section</h2>
+				<button class="btn" id="attack">Attack!</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<h2>Defender</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+			<span id="defender"></span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<span id="attackReadOut"></span>
+			</div>
+			<div class="col-sm-12">
+				<span id="defendReadOut"></span>
+				<button id="play-again">Play Again?</button>
+			</div>
+			<div class="col-sm-12">
+				<span id="defeated-characters"></span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

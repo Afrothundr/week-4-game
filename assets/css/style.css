@@ -1,0 +1,45 @@
+.jumbotron {
+	text-align: center;
+	padding: 20px;
+}
+
+.char-img {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+}
+
+.character {
+	text-align: center;
+	border: 10px solid green;
+	width: 200px;
+	display: inline-block;
+}
+
+h3, p {
+	padding: 5px;
+	margin: 0px;
+}
+
+#chosen-char {
+	min-height: 150px;
+}
+
+#enemies-avail .character {
+	border: 10px solid black;
+	background-color: red;
+	display: inline-block;
+}
+
+#defender .character {
+	background-color: black;
+	color: white;
+}
+
+#defeated-characters .character {
+	display: none;
+}
+
+#play-again {
+	display: none;
+}
